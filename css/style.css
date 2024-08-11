@@ -1,0 +1,129 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: rgb(101, 252, 159);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    padding: 1% 5%;
+    margin: 1% 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+/* Navigation Menu */
+nav {
+    flex: 1;
+    background-color: #21e034d2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Article Content */
+article {
+    flex: 3;
+    background-color: rgba(219, 251, 41, 0.522);
+    padding: 10px;
+}
+
+/* About Me Section */
+.aboutme-content {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.headshot {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 20vw;
+    height: 30vh;
+}
+
+.section-title {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(101, 227, 252);
+    line-height: 2;
+}
+
+/* Projects Section */
+.projects {
+    width: 28%;
+    border: 3px solid rgba(130, 232, 241, 0.365);
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+}
+
+.projects a {
+    width: 100%;
+}
+
+.projects a img {
+    width: 100%;
+}
+
+#project-work {
+    flex-wrap: wrap;
+}
+
+/* Summary Section */
+h3 {
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+summary {
+    position: absolute;
+    bottom: 10px;
+    right: 2px;
+    background-color: #ccc;
+    color: aliceblue;
+    letter-spacing: 2px;
+    padding: 1%;
+}
+
+/* Contact Links */
+#contactlinks {
+    font-size: 2rem;
+    padding: 1%;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(130, 232, 241, 0.365);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+}
